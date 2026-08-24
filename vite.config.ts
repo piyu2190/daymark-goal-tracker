@@ -4,6 +4,7 @@ import { fileURLToPath, URL } from 'node:url';
 
 // https://vitejs.dev/config/
 export default defineConfig({
+  base: '/daymark-goal-tracker/',
   plugins: [react()],
   resolve: {
     alias: {
